@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Clean Leaf Microgreens - Fresh, nutrient-dense microgreens grown locally and delivered to your door. Elevate your meals with nature's most powerful superfoods.">
+  <meta name="theme-color" content="#3FC1AA">
+  <title>Clean Leaf Microgreens | Fresh. Local. Nutrient-Dense.</title>
+
+  <!-- Preconnect for performance -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=DM+Serif+Display&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ============================================
+       HEADER / NAVIGATION
+       ============================================ -->
+  <header class="site-header" id="site-header">
+    <div class="container header-inner">
+      <a href="#" class="logo" aria-label="Clean Leaf Microgreens Home">
+        <!-- Replace with actual logo image -->
+        <span class="logo-icon" aria-hidden="true">&#127793;</span>
+        <span class="logo-text">Clean Leaf<span class="logo-accent"> Microgreens</span></span>
+      </a>
+
+      <nav class="main-nav" id="main-nav" aria-label="Main navigation">
+        <ul class="nav-list">
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#products" class="nav-link">Products</a></li>
+          <li><a href="#why" class="nav-link">Why Microgreens</a></li>
+          <li><a href="#testimonials" class="nav-link">Reviews</a></li>
+          <li><a href="#how-it-works" class="nav-link">How It Works</a></li>
+        </ul>
+      </nav>
+
+      <a href="#cta" class="btn btn-primary btn-nav">Order Now</a>
+
+      <button class="mobile-menu-toggle" id="mobile-menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="main-nav">
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+      </button>
+    </div>
+  </header>
+
+
+  <main>
+    <!-- ============================================
+         HERO SECTION
+         ============================================ -->
+    <section class="hero" id="hero">
+      <div class="container hero-inner">
+        <div class="hero-content reveal">
+          <span class="hero-badge">Locally Grown &bull; Freshly Harvested</span>
+          <h1 class="hero-title">
+            Tiny Greens,<br>
+            <span class="text-accent">Mighty Nutrition.</span>
+          </h1>
+          <p class="hero-subtitle">
+            Elevate every meal with our freshly harvested microgreens &mdash; packed with up to 40x more nutrients than mature vegetables. Grown locally, delivered fresh to your door.
+          </p>
+          <div class="hero-actions">
+            <a href="#cta" class="btn btn-primary btn-lg">Shop Microgreens</a>
+            <a href="#why" class="btn btn-outline btn-lg">Learn More</a>
+          </div>
+          <div class="hero-trust">
+            <div class="trust-item">
+              <svg class="trust-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+              <span>100% Natural</span>
+            </div>
+            <div class="trust-item">
+              <svg class="trust-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+              <span>No Pesticides</span>
+            </div>
+            <div class="trust-item">
+              <svg class="trust-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+              <span>Local Delivery</span>
+            </div>
+          </div>
+        </div>
+        <div class="hero-image reveal reveal-delay-1">
+          <img
+            src="https://www.cleanleafmicrogreens.com/wp-content/uploads/2024/02/liza-golyarchuk-ZN6wvVMmRI0-unsplash.jpg"
+            alt="Fresh microgreens close-up"
+            class="hero-img"
+            width="640"
+            height="960"
+            loading="eager"
+          />
+          <div class="hero-float-card">
+            <span class="float-card-number">40x</span>
+            <span class="float-card-text">More nutrients than<br>mature vegetables</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero-wave" aria-hidden="true">
+        <svg viewBox="0 0 1440 120" preserveAspectRatio="none">
+          <path d="M0,60 C360,120 720,0 1080,60 C1260,90 1380,80 1440,60 L1440,120 L0,120 Z" fill="#0F1923"/>
+        </svg>
+      </div>
+    </section>
+
+
+    <!-- ============================================
+         TRUST / VALUE PROPOSITION
+         ============================================ -->
+    <section class="trust-bar" id="trust-bar">
+      <div class="container">
+        <div class="trust-grid">
+          <div class="trust-card reveal">
+            <div class="trust-card-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+              </svg>
+            </div>
+            <h3 class="trust-card-title">Harvested Fresh</h3>
+            <p class="trust-card-text">Cut to order and delivered within hours so you get peak freshness and flavor every time.</p>
+          </div>
+          <div class="trust-card reveal reveal-delay-1">
+            <div class="trust-card-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+              </svg>
+            </div>
+            <h3 class="trust-card-title">Nutrient-Dense</h3>
+            <p class="trust-card-text">Microgreens pack concentrated vitamins, minerals, and antioxidants in every tiny leaf.</p>
+          </div>
+          <div class="trust-card reveal reveal-delay-2">
+            <div class="trust-card-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/>
+              </svg>
+            </div>
+            <h3 class="trust-card-title">Locally Grown</h3>
+            <p class="trust-card-text">Proudly grown in our local indoor farm using sustainable practices, supporting our community.</p>
+          </div>
+          <div class="trust-card reveal reveal-delay-3">
+            <div class="trust-card-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+              </svg>
+            </div>
+            <h3 class="trust-card-title">Pesticide-Free</h3>
+            <p class="trust-card-text">Grown without chemicals or pesticides. Pure, clean greens you can trust for your family.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ============================================
+         ABOUT SECTION
+         ============================================ -->
+    <section class="about" id="about">
+      <div class="container about-inner">
+        <div class="about-image reveal">
+          <img
+            src="https://www.cleanleafmicrogreens.com/wp-content/uploads/2024/02/Delivery-man.jpg"
+            alt="Clean Leaf Microgreens delivery and growing process"
+            class="about-img"
+            width="640"
+            height="960"
+            loading="lazy"
+          />
+        </div>
+        <div class="about-content reveal reveal-delay-1">
+          <span class="section-label">Our Story</span>
+          <h2 class="section-title">Grown with Care,<br>Delivered with <span class="text-accent">Love.</span></h2>
+          <p class="about-text">
+            Clean Leaf Microgreens was born from a simple belief: everyone deserves access to the freshest, most nutritious greens possible. We grow our microgreens in a controlled indoor environment using sustainable methods &mdash; no soil, no pesticides, just pure water and natural light.
+          </p>
+          <p class="about-text">
+            From seed to your table, we obsess over every detail. Each tray is hand-tended and harvested at the perfect moment to ensure maximum flavor and nutrition. We're not just growing greens &mdash; we're growing a healthier community, one tiny leaf at a time.
+          </p>
+          <div class="about-stats">
+            <div class="stat">
+              <span class="stat-number">100%</span>
+              <span class="stat-label">Natural</span>
+            </div>
+            <div class="stat">
+              <span class="stat-number">7-14</span>
+              <span class="stat-label">Days to Harvest</span>
+            </div>
+            <div class="stat">
+              <span class="stat-number">Fresh</span>
+              <span class="stat-label">Same-Day Cut</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ============================================
+         PRODUCTS SECTION
+         ============================================ -->
+    <section class="products" id="products">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">Our Microgreens</span>
+          <h2 class="section-title">Fresh Picks for Your <span class="text-accent">Table</span></h2>
+          <p class="section-subtitle">Hand-selected varieties grown for flavor, nutrition, and versatility. Perfect for salads, smoothies, sandwiches, and garnishes.</p>
+        </div>
+
+        <div class="product-grid">
+          <!-- Product Card 1 -->
+          <article class="product-card reveal">
+            <div class="product-image">
+              <div class="product-img-placeholder" role="img" aria-label="Sunflower microgreens">
+                <span class="placeholder-icon">&#127803;</span>
+              </div>
+              <span class="product-badge">Popular</span>
+            </div>
+            <div class="product-info">
+              <h3 class="product-name">Sunflower</h3>
+              <p class="product-desc">Crunchy, nutty flavor. Rich in vitamins A, B, D, E and essential minerals.</p>
+              <div class="product-footer">
+                <span class="product-tag">Mild &amp; Nutty</span>
+                <a href="#cta" class="btn btn-sm btn-primary">Order</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Product Card 2 -->
+          <article class="product-card reveal reveal-delay-1">
+            <div class="product-image">
+              <div class="product-img-placeholder" role="img" aria-label="Pea shoot microgreens">
+                <span class="placeholder-icon">&#127811;</span>
+              </div>
+            </div>
+            <div class="product-info">
+              <h3 class="product-name">Pea Shoots</h3>
+              <p class="product-desc">Sweet, tender shoots bursting with fresh flavor. High in vitamin C and folate.</p>
+              <div class="product-footer">
+                <span class="product-tag">Sweet &amp; Fresh</span>
+                <a href="#cta" class="btn btn-sm btn-primary">Order</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Product Card 3 -->
+          <article class="product-card reveal reveal-delay-2">
+            <div class="product-image">
+              <div class="product-img-placeholder" role="img" aria-label="Radish microgreens">
+                <span class="placeholder-icon">&#127793;</span>
+              </div>
+              <span class="product-badge">Chef's Pick</span>
+            </div>
+            <div class="product-info">
+              <h3 class="product-name">Radish</h3>
+              <p class="product-desc">Peppery kick with vibrant color. Packed with antioxidants and vitamin C.</p>
+              <div class="product-footer">
+                <span class="product-tag">Spicy &amp; Bold</span>
+                <a href="#cta" class="btn btn-sm btn-primary">Order</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Product Card 4 -->
+          <article class="product-card reveal reveal-delay-3">
+            <div class="product-image">
+              <div class="product-img-placeholder" role="img" aria-label="Broccoli microgreens">
+                <span class="placeholder-icon">&#129382;</span>
+              </div>
+            </div>
+            <div class="product-info">
+              <h3 class="product-name">Broccoli</h3>
+              <p class="product-desc">Mild and versatile superfood. Contains high levels of sulforaphane for wellness.</p>
+              <div class="product-footer">
+                <span class="product-tag">Mild &amp; Healthy</span>
+                <a href="#cta" class="btn btn-sm btn-primary">Order</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Product Card 5 -->
+          <article class="product-card reveal">
+            <div class="product-image">
+              <div class="product-img-placeholder" role="img" aria-label="Wheatgrass microgreens">
+                <span class="placeholder-icon">&#127806;</span>
+              </div>
+            </div>
+            <div class="product-info">
+              <h3 class="product-name">Wheatgrass</h3>
+              <p class="product-desc">The ultimate detox green. Perfect for juicing, loaded with chlorophyll and enzymes.</p>
+              <div class="product-footer">
+                <span class="product-tag">Detox &amp; Juice</span>
+                <a href="#cta" class="btn btn-sm btn-primary">Order</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Product Card 6 -->
+          <article class="product-card reveal reveal-delay-1">
+            <div class="product-image">
+              <div class="product-img-placeholder" role="img" aria-label="Micro Mix microgreens">
+                <span class="placeholder-icon">&#129388;</span>
+              </div>
+              <span class="product-badge">Best Value</span>
+            </div>
+            <div class="product-info">
+              <h3 class="product-name">Micro Mix</h3>
+              <p class="product-desc">A curated blend of our top varieties. The easiest way to enjoy the full spectrum of flavors.</p>
+              <div class="product-footer">
+                <span class="product-tag">Variety Blend</span>
+                <a href="#cta" class="btn btn-sm btn-primary">Order</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ============================================
+         WHY MICROGREENS SECTION
+         ============================================ -->
+    <section class="why-section" id="why">
+      <div class="container">
+        <div class="why-inner">
+          <div class="why-content reveal">
+            <span class="section-label">The Science</span>
+            <h2 class="section-title">Why <span class="text-accent">Microgreens?</span></h2>
+            <p class="why-text">
+              Microgreens are young vegetable greens harvested just after the first leaves develop. Despite their tiny size, they deliver an outsized nutritional punch that scientists are only beginning to fully understand.
+            </p>
+            <ul class="why-list">
+              <li class="why-list-item reveal">
+                <div class="why-list-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M2 12h20"/></svg>
+                </div>
+                <div>
+                  <strong>Up to 40x More Nutrients</strong>
+                  <p>Research shows microgreens contain significantly higher concentrations of vitamins and minerals compared to their mature counterparts.</p>
+                </div>
+              </li>
+              <li class="why-list-item reveal reveal-delay-1">
+                <div class="why-list-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M8 12l2 2 4-4"/></svg>
+                </div>
+                <div>
+                  <strong>Rich in Antioxidants</strong>
+                  <p>High levels of polyphenols and carotenoids help fight inflammation and support your immune system.</p>
+                </div>
+              </li>
+              <li class="why-list-item reveal reveal-delay-2">
+                <div class="why-list-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 8h1a4 4 0 0 1 0 8h-1M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8zM6 1v3M10 1v3M14 1v3"/></svg>
+                </div>
+                <div>
+                  <strong>Easy to Use</strong>
+                  <p>Add them to salads, smoothies, sandwiches, soups, or use as a beautiful garnish. No cooking required.</p>
+                </div>
+              </li>
+              <li class="why-list-item reveal reveal-delay-3">
+                <div class="why-list-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"/><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+                </div>
+                <div>
+                  <strong>Sustainable Growing</strong>
+                  <p>Microgreens use 95% less water and space than traditional farming, making them one of the most eco-friendly foods.</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="why-visual reveal reveal-delay-1">
+            <div class="nutrition-card">
+              <h3 class="nutrition-title">Nutrition Comparison</h3>
+              <p class="nutrition-subtitle">Microgreens vs. Mature Vegetables</p>
+              <div class="nutrition-bars">
+                <div class="nutrition-bar-group">
+                  <span class="nutrition-label">Vitamin C</span>
+                  <div class="bar-track">
+                    <div class="bar-fill bar-micro" style="--bar-width: 92%">
+                      <span class="bar-value">Microgreens</span>
+                    </div>
+                  </div>
+                  <div class="bar-track">
+                    <div class="bar-fill bar-mature" style="--bar-width: 25%">
+                      <span class="bar-value">Mature</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="nutrition-bar-group">
+                  <span class="nutrition-label">Vitamin E</span>
+                  <div class="bar-track">
+                    <div class="bar-fill bar-micro" style="--bar-width: 85%">
+                      <span class="bar-value">Microgreens</span>
+                    </div>
+                  </div>
+                  <div class="bar-track">
+                    <div class="bar-fill bar-mature" style="--bar-width: 20%">
+                      <span class="bar-value">Mature</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="nutrition-bar-group">
+                  <span class="nutrition-label">Beta Carotene</span>
+                  <div class="bar-track">
+                    <div class="bar-fill bar-micro" style="--bar-width: 88%">
+                      <span class="bar-value">Microgreens</span>
+                    </div>
+                  </div>
+                  <div class="bar-track">
+                    <div class="bar-fill bar-mature" style="--bar-width: 22%">
+                      <span class="bar-value">Mature</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <p class="nutrition-footnote">*Based on USDA research on microgreen nutrient density</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ============================================
+         TESTIMONIALS SECTION
+         ============================================ -->
+    <section class="testimonials" id="testimonials">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">Happy Customers</span>
+          <h2 class="section-title">What People Are <span class="text-accent">Saying</span></h2>
+        </div>
+        <div class="testimonial-grid">
+          <blockquote class="testimonial-card reveal">
+            <div class="testimonial-stars" aria-label="5 out of 5 stars">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            </div>
+            <p class="testimonial-text">"The freshness is unreal. I've been adding these to everything &mdash; salads, sandwiches, smoothies. My whole family noticed the difference in flavor compared to store-bought greens."</p>
+            <footer class="testimonial-author">
+              <div class="author-avatar" aria-hidden="true">S</div>
+              <div>
+                <cite class="author-name">Sarah M.</cite>
+                <span class="author-role">Health-Conscious Mom</span>
+              </div>
+            </footer>
+          </blockquote>
+
+          <blockquote class="testimonial-card reveal reveal-delay-1">
+            <div class="testimonial-stars" aria-label="5 out of 5 stars">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            </div>
+            <p class="testimonial-text">"As a chef, I'm always looking for quality ingredients. Clean Leaf delivers consistently beautiful, flavorful microgreens. They elevate every dish I create."</p>
+            <footer class="testimonial-author">
+              <div class="author-avatar" aria-hidden="true">J</div>
+              <div>
+                <cite class="author-name">James R.</cite>
+                <span class="author-role">Local Chef</span>
+              </div>
+            </footer>
+          </blockquote>
+
+          <blockquote class="testimonial-card reveal reveal-delay-2">
+            <div class="testimonial-stars" aria-label="5 out of 5 stars">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            </div>
+            <p class="testimonial-text">"I love knowing exactly where my food comes from. Clean Leaf is transparent, local, and the quality speaks for itself. Subscription was the best decision!"</p>
+            <footer class="testimonial-author">
+              <div class="author-avatar" aria-hidden="true">A</div>
+              <div>
+                <cite class="author-name">Amanda T.</cite>
+                <span class="author-role">Wellness Enthusiast</span>
+              </div>
+            </footer>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ============================================
+         HOW IT WORKS SECTION
+         ============================================ -->
+    <section class="how-it-works" id="how-it-works">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">Simple &amp; Easy</span>
+          <h2 class="section-title">How It <span class="text-accent">Works</span></h2>
+          <p class="section-subtitle">Getting fresh microgreens delivered to your door is as easy as 1-2-3.</p>
+        </div>
+        <div class="steps-grid">
+          <div class="step-card reveal">
+            <div class="step-number" aria-hidden="true">1</div>
+            <div class="step-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/>
+                <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/>
+              </svg>
+            </div>
+            <h3 class="step-title">Choose Your Greens</h3>
+            <p class="step-text">Browse our selection and pick your favorite microgreen varieties or try our curated mix.</p>
+          </div>
+          <div class="step-connector" aria-hidden="true">
+            <svg viewBox="0 0 40 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M0 12h40M32 4l8 8-8 8"/></svg>
+          </div>
+          <div class="step-card reveal reveal-delay-1">
+            <div class="step-number" aria-hidden="true">2</div>
+            <div class="step-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <rect x="1" y="3" width="15" height="13" rx="2" ry="2"/><path d="M16 8h4l3 3v5a2 2 0 0 1-2 2h-1"/>
+                <circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/>
+              </svg>
+            </div>
+            <h3 class="step-title">We Harvest &amp; Deliver</h3>
+            <p class="step-text">Your greens are cut fresh on delivery day and brought straight to your door at peak nutrition.</p>
+          </div>
+          <div class="step-connector" aria-hidden="true">
+            <svg viewBox="0 0 40 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M0 12h40M32 4l8 8-8 8"/></svg>
+          </div>
+          <div class="step-card reveal reveal-delay-2">
+            <div class="step-number" aria-hidden="true">3</div>
+            <div class="step-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M18 8h1a4 4 0 0 1 0 8h-1M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"/>
+                <path d="M6 1v3M10 1v3M14 1v3"/>
+              </svg>
+            </div>
+            <h3 class="step-title">Enjoy &amp; Thrive</h3>
+            <p class="step-text">Add to any meal for a burst of nutrition and flavor. Your body will thank you.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ============================================
+         CTA SECTION
+         ============================================ -->
+    <section class="cta-section" id="cta">
+      <div class="container">
+        <div class="cta-card reveal">
+          <div class="cta-content">
+            <h2 class="cta-title">Ready to Eat Cleaner<br>and Feel Better?</h2>
+            <p class="cta-text">
+              Join hundreds of families, chefs, and health enthusiasts who trust Clean Leaf Microgreens for the freshest, most nutritious greens available.
+            </p>
+            <div class="cta-actions">
+              <a href="https://www.cleanleafmicrogreens.com/shop" class="btn btn-primary btn-lg btn-glow">Shop Microgreens</a>
+              <a href="https://www.cleanleafmicrogreens.com/contact" class="btn btn-outline-light btn-lg">Contact Us</a>
+            </div>
+            <p class="cta-guarantee">
+              <svg class="trust-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+              100% satisfaction guaranteed &bull; Free local delivery available
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+
+  <!-- ============================================
+       FOOTER
+       ============================================ -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#" class="logo" aria-label="Clean Leaf Microgreens Home">
+            <span class="logo-icon" aria-hidden="true">&#127793;</span>
+            <span class="logo-text">Clean Leaf<span class="logo-accent"> Microgreens</span></span>
+          </a>
+          <p class="footer-tagline">Fresh. Local. Nutrient-Dense. Growing a healthier community, one tiny leaf at a time.</p>
+          <div class="social-links">
+            <!-- Replace # with actual social URLs -->
+            <a href="#" class="social-link" aria-label="Follow us on Instagram">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+            </a>
+            <a href="#" class="social-link" aria-label="Follow us on Facebook">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+            </a>
+            <a href="#" class="social-link" aria-label="Email us">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer-links">
+          <h4 class="footer-heading">Quick Links</h4>
+          <ul>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#products">Our Microgreens</a></li>
+            <li><a href="#how-it-works">How It Works</a></li>
+            <li><a href="https://www.cleanleafmicrogreens.com/shop">Shop</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-links">
+          <h4 class="footer-heading">Support</h4>
+          <ul>
+            <li><a href="https://www.cleanleafmicrogreens.com/contact">Contact Us</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Delivery Info</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-contact">
+          <h4 class="footer-heading">Get In Touch</h4>
+          <!-- Replace with actual contact info -->
+          <p>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            hello@cleanleafmicrogreens.com
+          </p>
+          <p>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            Local Delivery Available
+          </p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2025 Clean Leaf Microgreens. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
