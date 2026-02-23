@@ -10,9 +10,14 @@
   <!-- Preconnect for performance -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=DM+Serif+Display&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://www.cleanleafmicrogreens.com">
 
   <link rel="stylesheet" href="styles.css">
+
+  <!-- Non-render-blocking font loading -->
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=DM+Serif+Display&display=swap">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=DM+Serif+Display&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+  <noscript><link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=DM+Serif+Display&display=swap" rel="stylesheet"></noscript>
 </head>
 <body>
 
@@ -84,12 +89,16 @@
         </div>
         <div class="hero-image reveal reveal-delay-1">
           <img
-            src="https://www.cleanleafmicrogreens.com/wp-content/uploads/2024/02/liza-golyarchuk-ZN6wvVMmRI0-unsplash.jpg"
+            src="https://www.cleanleafmicrogreens.com/wp-content/uploads/2024/02/liza-golyarchuk-ZN6wvVMmRI0-unsplash-768x1152.jpg"
+            srcset="https://www.cleanleafmicrogreens.com/wp-content/uploads/2024/02/liza-golyarchuk-ZN6wvVMmRI0-unsplash-768x1152.jpg 768w, https://www.cleanleafmicrogreens.com/wp-content/uploads/2024/02/liza-golyarchuk-ZN6wvVMmRI0-unsplash-1024x1536.jpg 1024w"
+            sizes="(max-width: 600px) 100vw, 480px"
             alt="Fresh microgreens close-up"
             class="hero-img"
-            width="640"
-            height="960"
+            width="768"
+            height="1152"
             loading="eager"
+            fetchpriority="high"
+            decoding="async"
           />
           <div class="hero-float-card">
             <span class="float-card-number">40x</span>
@@ -159,12 +168,15 @@
       <div class="container about-inner">
         <div class="about-image reveal">
           <img
-            src="https://www.cleanleafmicrogreens.com/wp-content/uploads/2024/02/Delivery-man.jpg"
+            src="https://www.cleanleafmicrogreens.com/wp-content/uploads/2024/02/Delivery-man-768x1152.jpg"
+            srcset="https://www.cleanleafmicrogreens.com/wp-content/uploads/2024/02/Delivery-man-768x1152.jpg 768w, https://www.cleanleafmicrogreens.com/wp-content/uploads/2024/02/Delivery-man-1024x1536.jpg 1024w"
+            sizes="(max-width: 600px) 100vw, 50vw"
             alt="Clean Leaf Microgreens delivery and growing process"
             class="about-img"
-            width="640"
-            height="960"
+            width="768"
+            height="1152"
             loading="lazy"
+            decoding="async"
           />
         </div>
         <div class="about-content reveal reveal-delay-1">
