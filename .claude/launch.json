@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "cleanleaf",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["serve", "/Users/alek/Desktop/Work/Claude/cleanleaf-landing", "-l", "3456"],
+      "port": 3456
+    }
+  ]
+}
